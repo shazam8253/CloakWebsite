@@ -1,7 +1,5 @@
 import React from 'react';
-import img from '../images/web.svg'; 
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
+
 import net from '../images/icons8-internet-100.png';
 import arb from '../images/icons8-arbitrage-64.png';
 import stck from '../images/icons8-stock-market-100 (1).png';
