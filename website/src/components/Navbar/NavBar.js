@@ -21,7 +21,7 @@ const NavBar = () => {
     }, [top]);
 
     return (
-        <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-eerie-black'}`}>
+        <nav className={`fixed font-[Inter] top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white'}`}>
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-6 md:mx-6 items-center text-center font-semibold">
                     <Link to="/"><img src={cloakLogo} alt="cloak logo" className="w-48"></img></Link>
@@ -41,7 +41,7 @@ const NavBar = () => {
                         <NavLinks />
                     </div>
 
-                    <div className={`fixed transition-transform duration-300 ease-in-out transit flex justify-center left-0 w-full h-auto rounded-md p-16 bg-eerie-black rounded-lg block lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
+                    <div className={`fixed transition-transform duration-300 ease-in-out transit justify-center left-0 w-full h-auto p-16 bg-white rounded-lg block lg:hidden shadow-xl top-14 ${  isOpen ? "block" : "hidden" } `}>
                         <div className='flex flex-col space-y-4'>
                             <NavLinks />
                         </div>                                                

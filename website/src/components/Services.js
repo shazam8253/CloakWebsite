@@ -7,28 +7,28 @@ import stck from '../images/icons8-stock-market-100 (1).png';
 const Services = () => {
 
     return (
-        <div id="services" className=" py-12" >
+        <div id="services" className=" py-12 font-[Inter]" >
             <section data-aos="zoom-in-down">
-            <div className=" my-10 py-4 grid grid-cols-3 gap-4 mx-64">
+            <div className=" my-32 py-4 grid grid-cols-3 gap-4 mx-64">
                 <div className="col-span-2">
-                    <h2 className="my-2 text-center text-5xl text-white font-extrabold">Cloak is the world's first decentralized dark pool.</h2>
+                    <h2 className="my-2 text-left text-5xl text-black font-extrabold">Cloak is a non-custodial, autonomous digital asset dark pool.</h2>
                 </div>
                 <div>
-                    <h2 className="mt-8 mx-12 text-center text-xl lg:text-2xl font-semibold text-white">A service tailored for your <b>high capital</b> trades. We got your back.</h2>
+                    <h2 className="mt-8 mx-12 text-left text-xl lg:text-2xl font-semibold text-black">A privacy-oriented exchange tailored for your <b>high capital</b> trades. We have your back.</h2>
                 </div>
                 <div>
-                    <p className="text-center text-xl text-white mt-12 px-8">
-                        Under the hood, Cloak is a hardware and cryptographically secure protocol, ensuring privacy and security.
+                    <p className="text-left text-xl font-medium text-gray-500 mt-12 px-8">
+                        Under the hood, Cloak is an alternative trading system (ATS) for discreet digital asset trading.
                     </p>
                 </div>
                 <div>
-                    <p className="text-center text-xl text-white  mt-12 px-8">
-                        We combine zk and the latest generation of TEEs to secure your data.
+                    <p className="text-left text-xl font-medium text-gray-500  mt-12 px-8">
+                        Enjoy the benefits of off-market trading while using a seamless interface. 
                     </p>
                 </div>
                 <div>
-                    <p className="text-center text-xl text-white mt-12 px-8">
-                        We are the protocol that will protect your alpha on chain.
+                    <p className="text-left text-xl font-medium text-gray-500 mt-12 px-8">
+                        Protect your alpha while trading on-chain - no MEV, no wallet tracking, no data leakage. 
                     </p>
                 </div>
             </div>
@@ -40,8 +40,8 @@ const Services = () => {
                     <img className="absolute inset-0 w-full h-full object-contain object-center opacity-20 z-0" src={net} alt="Logo"></img>
 
                     <div className="lg:w-1/8 flex flex-col justify-center z-10" data-aos="zoom-in" data-aos-delay="200">
-                        <div className="text-7xl font-bold tracking-tight text-[#a192f8] mt-1">End-to-end Private</div>
-                        <p className="text-white opacity-80 mt-4">Our matching engine is protected from both the producer and the clients. It is hardware secured and verified compute.</p>
+                        <div className="text-6xl font-bold tracking-tight text-black mt-1">Secure, discreet trading.</div>
+                        <p className="text-black text-2xl text-center font-semibold opacity-80 mt-4">Whether buying or selling, your orders are private pre-, during, and post-execution.</p>
                         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                             {/* Any other content you want to add in the future */}
                         </div>
@@ -57,8 +57,8 @@ const Services = () => {
                     <img className="absolute inset-0 w-full h-full object-contain object-center opacity-20 z-0" src={arb} alt="Logo"></img>
 
                     <div className="lg:w-1/8 flex flex-col justify-center z-10" data-aos="zoom-in" data-aos-delay="200">
-                        <div className="text-7xl font-bold tracking-tight text-white mt-1">MEV Resistant</div>
-                        <p className="text-white opacity-80 mt-4">All transaction data is completly cryptographically secured, and can only be viewed by the owner of the private key. This means your alpha is protected on chain.</p>
+                        <div className="text-6xl font-bold tracking-tight text-black mt-1">No more MEV. </div>
+                        <p className="text-black text-2xl text-center font-semibold opacity-80 mt-4">Cloak curbs pre-trade transparency through cryptographic security. <br/> Your trades are immune to MEV front-running, back-running, and sandwich attacks.</p>
                         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                             {/* Any other content you want to add in the future */}
                         </div>
@@ -72,8 +72,8 @@ const Services = () => {
                     <img className="absolute inset-0 w-full h-full object-contain object-center opacity-20 z-0" src={stck} alt="Logo"></img>
 
                     <div className="lg:w-1/8 flex flex-col justify-center z-10" data-aos="zoom-in" data-aos-delay="200">
-                        <div className="text-7xl font-bold tracking-tight text-[#a192f8] mt-1">Slippage Resistant</div>
-                        <p className="text-white opacity-80 mt-4">All transaction data is completly cryptographically secured, and can only be viewed by the owner of the private key. This means your alpha is protected on chain.</p>
+                        <div className="text-6xl font-bold tracking-tight text-black mt-1">Goodbye, slippage.</div>
+                        <p className="text-black text-2xl text-center font-semibold opacity-80 mt-4">Cloak guarantees the best prices through NBBO midpoint execution.</p>
                         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                             {/* Any other content you want to add in the future */}
                         </div>

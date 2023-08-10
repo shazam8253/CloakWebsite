@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from '../components/Navbar/NavBar';
+import NavBar from './Navbar/NavBar';
 
 const Hero = () => {
     return (
         <>
-            <div className="hero" id='hero'>
+            <div className="hero font-[Inter]" id='hero'>
                 <div>
                     <NavBar />
                 </div>
@@ -14,7 +14,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center m-auto overflow-hidden  mt-8 lg:mt-4 p-2 md:p-12 h-5/6" data-aos="zoom-in">
                 <div className="flex flex-col lg:flex-row mt-32 py-8 justify-center text-center lg:text-center">
                     <div className="lg:w-1/8 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                        <div className="text-7xl font-bold text-center tracking-tight text-white mt-1">Trade crypto with <br/> end-to-end privacy.</div>
+                        <div className="text-7xl font-bold text-center tracking-tight leading-tight text-black mt-1">Trade crypto with <br/> end-to-end privacy.</div>
                         <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                             <Link to="/contact" className="text-white bg-md-slate-blue hover:bg-l-slate-blue duration-300 inline-flex items-center justify-center w-full px-6 py-3 my-10 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                 Learn more
