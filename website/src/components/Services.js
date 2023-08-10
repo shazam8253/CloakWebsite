@@ -18,7 +18,7 @@ const Services = () => {
                 </div>
                 <div>
                     <p className="text-left text-xl font-medium text-gray-500 mt-12 px-8">
-                        Under the hood, Cloak is an alternative trading system (ATS) for discreet digital asset trading.
+                        Under the hood, Cloak is an alternative trading system (ATS) for digital assets.
                     </p>
                 </div>
                 <div>
